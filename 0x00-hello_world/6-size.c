@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+#include <stderr.h>
 
 /**
  * main - Print the sizeof var types
