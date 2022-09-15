@@ -10,6 +10,8 @@
 
 int convert_day(int month, int day)
 {
+if (month != 0  && month <= 12)
+{
 	switch (month)
 	{
 		case 1:
@@ -52,4 +54,5 @@ int convert_day(int month, int day)
 			break;
 	}
 	return (day);
+}
 }
