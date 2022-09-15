@@ -11,10 +11,10 @@ void more_numbers(void)
 	int b, c;
 
 	b = 0;
-	while(b <= 10)
+	while (b <= 10)
 	{
 		c = 0;
-		while(c <= 14)
+		while (c <= 14)
 		{
 			if (c <= 9)
 			{
@@ -25,7 +25,9 @@ void more_numbers(void)
 				_putchar((c / 10) + '0');
 				_putchar((c % 10) + '0');
 			}
+			c++;
 		}
 		_putchar('\n');
+		b++;
 	}
 }
