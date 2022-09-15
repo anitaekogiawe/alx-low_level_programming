@@ -8,15 +8,9 @@
  */
 int _isupper(int c)
 {
-	if (c == 'A' || c <= 'Z')
+	if (c <= 'Z')
 	{
-		c = 1;
-		_putchar(c);
-	}
-	else
-	{
-		c = 0;
-		_putchar(c);
+		return (1);
 	}
 	return (0);
 }
