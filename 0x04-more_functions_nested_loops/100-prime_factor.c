@@ -9,19 +9,17 @@
 
 int main(void)
 {
-	long num = 612852475143;
-	long divisor = 2;
-	long larg_prim = 0;
+	long int n, b;
 
-	while (num != 1)
+	n = 612852475143;
+	for (b = 2; b <= n; b++)
 	{
-		if (num % divisor == 0)
+		if (n % b == 0)
 		{
-			num = num / divisor;
-			larg_prim = divisor;
+			n /= b;
+			b--;
 		}
-		divisor += 1;
 	}
-	printf("%ld\n", larg_prim);
+	printf("%ld\n", b);
 	return (0);
 }
