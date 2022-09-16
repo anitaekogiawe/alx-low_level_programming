@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,7 +7,7 @@
  */
 void more_numbers(void)
 {
-	int a, c;
+	char a, c;
 	int d = 0;
 
 	while (d < 10)
