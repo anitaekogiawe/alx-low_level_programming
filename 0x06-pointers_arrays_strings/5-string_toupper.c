@@ -7,7 +7,7 @@
  * Return: A pointer to the changed string.vvvvv
  */
 
-char *string_toupper(char *str)v
+char *string_toupper(char *str)
 {
 	int index = 0;
 
